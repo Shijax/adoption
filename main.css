@@ -1,11 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+
 body {
     background-image: linear-gradient(rgb(102, 102, 228), rgb(141, 229, 139));
     /* background-image: radial-gradient(red, yellow, blue); */
-    background-attachment: fixed
+    /* background-attachment: fixed */
 }
+
+h1 {
+    font-family: 'Nanum Brush Script', cursive;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 7em;
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 #animals {
     text-align: center;
+}
+
+#dragMe {
+    cursor: url("./images/paw.cur"),
+    auto;
 }
 
 .animal-card{
@@ -23,4 +44,8 @@ body {
 #buttons{
     display: flex;
     justify-content: center;
+}
+
+.btn {
+    width: 300px !important;
 }

@@ -12,13 +12,13 @@ const getAnimalz = () => {
 };
 
 const animalClick = (e) => {
-    const animalId = e.target.closest('.animal-card').id;
+    const animalId = e.target.closest('.animals-card').id;
     const currentAnimal = animals.find(x => x.id === animalId);
     detailsBuilder(currentAnimal);
 };
 
 const createEvents = () => {
-    const animalCards = document.getElementsByClassName('animal-card');
+    const animalCards = document.getElementsByClassName('animals-card');
     for (let i = 0; i < animalCards.length; i++) {
         animalCards[i].addEventListener('click', animalClick);
     }
