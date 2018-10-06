@@ -141,10 +141,10 @@
         "imageUrl": "http://www.funnycatsite.com/pictures/Lazy_White_Cat.jpg"
       },
       {
-        "name": "Miss kitty",
+        "name": "Miss Kitty",
         "color": "Red",
         "specialSkill": "Owns a Nintendo Power Glove.",
-        "type": "dino",
+        "type": "cat",
         "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715"
       },
       {
@@ -185,14 +185,14 @@
       {
         "name": "Chloe",
         "color": "Green",
-        "specialSkill": "Admits he is wrong",
+        "specialSkill": "Admits that she is capable of being wrong",
         "type": "dino",
         "imageUrl": "https://assets.creationmuseum.org/img/pages/1703-DinoDen-TwoCard.jpg"
       },
       {
         "name": "Nala",
         "color": "Purple",
-        "specialSkill": "Dances when he has to.",
+        "specialSkill": "Dances when she has to.",
         "type": "cat",
         "imageUrl": "https://tailandfur.com/wp-content/uploads/2016/03/40-Scary-and-Funny-Cat-Pictures-8.jpg"
       },

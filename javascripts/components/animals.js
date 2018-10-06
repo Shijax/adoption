@@ -61,6 +61,8 @@ const animalBuilder = (animalsArray) => {
     createEvents();
 };
 
+// https://getbootstrap.com/docs/4.1/components/card/
+
 export {
     animalBuilder,
     setAnimals,
