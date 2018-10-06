@@ -38,7 +38,7 @@ Type of Pet: xxx
 - There should be some way for the user to unfilter the results.
 
 
-![MockUp](https://github.com/Shijax/adoption/blob/master/mockup.png)
+![MockUp](https://github.com/Shijax/adoption/blob/master/MockUp.png)
 
 
 ## Technical Requirements
@@ -49,7 +49,7 @@ Type of Pet: xxx
 
 ## Final Screencap
 
-(https://github.com/Shijax/adoption/blob/master/final.jpeg)
+(https://github.com/Shijax/adoption/blob/master/finale.jpeg)
 
 
 ## How to run this project:
