@@ -38,7 +38,7 @@ Type of Pet: xxx
 - There should be some way for the user to unfilter the results.
 
 
-![MockUp](https://github.com/Shijax/adoption/blob/master/mockup.jpeg)
+![MockUp](https://github.com/Shijax/adoption/blob/master/mockup.png)
 
 
 ## Technical Requirements
@@ -46,6 +46,10 @@ Type of Pet: xxx
 - You should be using Bootstrap; your project should look like the mockup displayed.
 - You should be using ES6 modules.
 - Your code should be clean and readable, with single responsibility principle.
+
+## Final Screencap
+
+(https://github.com/Shijax/adoption/blob/master/final.jpeg)
 
 
 ## How to run this project:
