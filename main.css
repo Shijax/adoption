@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(rgb(102, 102, 228), rgb(141, 229, 139));
+    /* background-image: radial-gradient(red, yellow, blue); */
     background-attachment: fixed
 }
 

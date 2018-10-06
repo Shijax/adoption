@@ -49,20 +49,29 @@ const animalBuilder = (animalsArray) => {
     let domString = '';
     animalsArray.forEach((animals) => {
         domString += `<div class="card border-success m-3 p-3 col-3 animals-card" id="${animals.id}">`;
-        domString += `<div class="card-header bg-transparent border-success">${animals.name}</div>`;
-        domString += `<div class="card-body text-dark">`;
+        domString += `<div class="card-header bg-info text-white border-success font-weight-bold">${animals.name}</div>`;
+        domString += `<div class="card-body text-dark h-100">`;
         domString += `<img src="${animals.imageUrl}" alt="${animals.name}" width="200px" height="250px">`
         domString += `<h5 class="card-title">${animals.color}</h5>`;
         domString += `<p class="card-text">${animals.specialSkill}</p>`;
         domString += `</div>`;
-        domString += `<div class="card-footer bg-transparent border-success ${animals.type}">${animals.type}</div>`
+        domString += `<div class='mt-auto'>`
+        if (animals.type === "dog") {
+            domString += `<div class="card-footer text-center bg-success">${animals.type}`;
+        } else if (animals.type === "cat") {
+            domString += `<div class="card-footer text-center bg-primary">${animals.type}`;
+        } else {
+            domString += `<div class="card-footer text-center bg-warning">${animals.type}`;
+        }
+        domString += `</div>`
+        // domString += `<div class="card-footer bg-transparent border-success ${animals.type}">${animals.type}</div>`
+        domString += `</div>`;
         domString += `</div>`;
     });
+    domString += `</div>`;
     printToDom(domString);
     createEvents();
 };
-
-// https://getbootstrap.com/docs/4.1/components/card/
 
 export {
     animalBuilder,
@@ -70,3 +79,6 @@ export {
     getAnimalz,
     sortEvents
 };
+
+// Thanks to Shane D. Wilson for the idea on how
+// to do the color on the footer for the cards.
