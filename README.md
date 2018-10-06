@@ -49,7 +49,7 @@ Type of Pet: xxx
 
 ## Final Screencap
 
-(https://github.com/Shijax/adoption/blob/master/finale.jpeg)
+![IMG](https://github.com/Shijax/adoption/blob/master/finale.jpeg)
 
 
 ## How to run this project:
