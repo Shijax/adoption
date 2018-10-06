@@ -3,7 +3,7 @@ import { setAnimals, animalBuilder, getAnimalz }from '../components/animals.js'
 function executeThisCodeAfterFileLoaded () {
     const data = JSON.parse(this.responseText);
     setAnimals(data.animals);
-    animalBuilder(getAnimalz);
+    animalBuilder(getAnimalz());
 }
 
 function executeThisCodeIfXhrFails () {
